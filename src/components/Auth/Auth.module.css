@@ -1,0 +1,30 @@
+.auth {
+  margin: 2% auto;
+  width: 25rem;
+  max-width: 95%;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  color: #616161;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  display: block;
+  width: 30rem;
+  max-width: 100%;
+  margin: auto;
+  border-radius: 4px;
+  padding: 0.25rem;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+}

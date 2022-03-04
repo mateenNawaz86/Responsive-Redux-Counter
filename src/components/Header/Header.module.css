@@ -1,0 +1,30 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: #f0f8ff;
+  padding: 0 2rem;
+}
+
+.logo h2 {
+  color: #000;
+  user-select: none;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.logo h2:hover {
+  color: #4682b4;
+}
+
+.logOut {
+  margin-bottom: -10px;
+}
+
+@media (max-width: 410px) {
+  .headerContainer {
+    padding: 0 1rem;
+  }
+}

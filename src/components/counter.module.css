@@ -1,0 +1,46 @@
+.main {
+  width: 40rem;
+  max-width: 95%;
+  margin: 5% auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  user-select: none;
+  margin: 1rem 0;
+  color: #616161;
+}
+
+.counterValue {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+.counterBtns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.toggleBtn {
+  text-align: center;
+}
+
+@media (max-width: 410px) {
+  .heading {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .counterBtns {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
